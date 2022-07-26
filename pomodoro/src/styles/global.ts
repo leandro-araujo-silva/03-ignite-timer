@@ -7,9 +7,14 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  :focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px #00875F;
+  }
+
   body {
-    background: ${props => props.theme['gray-900']};
-    color: #fff;
+    background: #121214; 
+    color: #C4C4CC;
   }
 
   body, input, textarea, button {
