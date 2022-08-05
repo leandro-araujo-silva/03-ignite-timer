@@ -17,7 +17,6 @@ export function Home() {
             <option value="Concurso"></option>
           </datalist>
 
-
           <label htmlFor="minutesAmount">durante</label>
           <MinutesAmountInput 
             type="number" 
